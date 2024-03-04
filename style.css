@@ -152,6 +152,7 @@ font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal; */
 body {
+    padding: 0 50px;
     background-color: #42375c;
 }
 
@@ -187,15 +188,18 @@ li a {
     height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-
-.b1,
-.b3 {
-    flex-grow: 2;
-    width: 100%;
-
+.b1 .introduction {
+    flex: 1;
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 100;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    text-align: left;
+    color: white;
+    max-width: 300px;
 }
 
 .b1 h1 {
@@ -204,17 +208,77 @@ li a {
     font-weight: 700;
     letter-spacing: -6px;
     text-transform: capitalize;
-    font-size: 6em;
+    font-size: 6.5em;
 
 }
 
+.intro {
+    padding-top: 3em;
+    max-width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro .button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 6em;
+    height: 100%;
+    text-decoration: none;
+    color: #42375c;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 0.2em;
+
+}
+
+.b1,
+.b3 {
+    flex-grow: 2;
+    width: 100%;
+}
+
+.fi-sr-angle-small-right {
+    font-size: 2em;
+    text-align: center;
+}
+
 .b2 {
+    align-self: flex-end;
     background-color: black;
     flex-grow: 1;
 }
 
 .b2 img {
-    width: 200px;
+    width: 250px;
     aspect-ratio: 1/3;
     object-fit: cover;
+}
+
+.b3 .project-box {
+    width: 300px;
+    height: 200px;
+    background-color: rgb(255, 255, 255, 0.2);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+    border-radius: 1px;
+}
+
+.project-box h2 {
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 300;
+    font-size: 2em;
+    color: white;
+    text-transform: capitalize;
+}
+
+.projects .more-projects {
+    font-family: "Rethink Sans", sans-serif;
+    font-weight: 100;
+    font-size: 2em;
+    color: white;
+    text-decoration: none;
+
 }
