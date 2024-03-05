@@ -152,12 +152,8 @@ font-family: "Lato", sans-serif;
   font-weight: 700;
   font-style: normal; */
 body {
-
-    background-color: #42375c;
-}
-
-.all {
     padding: 0 50px;
+    background-color: #42375c;
 }
 
 .nav-links {
@@ -273,13 +269,10 @@ li a {
     align-items: start;
     margin-left: -50px;
     padding-left: 50px;
+    padding-top: 50px;
     width: 100%;
     height: 30%;
-    /* background-color: rgba(255, 255, 255, 0.2); */
-    /* backdrop-filter: blur(40px); */
-    /* -webkit-backdrop-filter: blur(40px); */
     border-radius: 1px;
-
 }
 
 .project-box a {
