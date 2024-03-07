@@ -295,6 +295,12 @@ li a {
     color: white;
     text-decoration: none;
     font-size: 2em;
+    transition: all ease-in 0.1s;
+}
+
+.icons a:hover {
+    font-size: 2.1em;
+    color: #B084CC;
 }
 
 .b3 .project-box {
